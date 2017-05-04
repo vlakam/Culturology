@@ -1,0 +1,17 @@
+{
+  "name": "Culturology",
+  "description": "Shit on map to your face",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vlakam/culturology",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-ui-router": "ui-route#^0.4.2",
+    "ui-leaflet": "#leaflet-1.X",
+    "bootstrap-sass": "^3.3.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.main-map .left-list {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+  float: left;
+  background-color: #1b6d85; }
+  .main-map .left-list::-webkit-scrollbar {
+    width: 6px;
+    opacity: .6; }
+  .main-map .left-list::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 4px; }
+  .main-map .left-list > li {
+    padding: 15px;
+    border-bottom: solid cadetblue 1px; }
+    .main-map .left-list > li a {
+      color: #e7e7e7;
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: none; }
+    .main-map .left-list > li:hover, .main-map .left-list > li.active {
+      background-color: #00b3ee;
+      cursor: pointer; }
+      .main-map .left-list > li:hover a, .main-map .left-list > li.active a {
+        color: black; }
+
+.main-map .map {
+  display: inline-block;
+  width: 80%;
+  height: 100%;
+  float: left; }
+
+.building-tooltip {
+  min-width: 200px;
+  min-height: 100px; }
+  .building-tooltip img {
+    max-height: 300px;
+    max-width: 300px; }
+  .building-tooltip p {
+    white-space: normal; }

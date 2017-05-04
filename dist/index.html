@@ -1,0 +1,35 @@
+<html>
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Saint-Petersburg map</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- inject:css -->
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <!-- endinject -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/leaflet/dist/leaflet.css">
+    <!-- endinject -->
+</head>
+<body ng-app="app">
+
+<!-- bower:js -->
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="../bower_components/angular-simple-logger/dist/angular-simple-logger.js"></script>
+<script src="../bower_components/leaflet/dist/leaflet-src.js"></script>
+<script src="../bower_components/jquery/dist/jquery.js"></script>
+<script src="../bower_components/ui-leaflet/dist/ui-leaflet.js"></script>
+<script src="../bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+<!-- endinject -->
+<script src="templates.js"></script>
+<!-- inject:js -->
+<script src="app.js"></script>
+<script src="main/controllers/mainController.js"></script>
+<!-- endinject -->
+
+<div ui-view></div>
+</body>
+</html>
