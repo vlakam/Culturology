@@ -32,24 +32,57 @@
             });
 
             vm.ages = [{
-                name: 'Петровское барроко (1697-1730 гг.)',
+                name: 'Санкт-Петербург в эпоху Петра Великого (1703-1725 гг.)',
+                buildings: [{
+                    name: 'Зимний дворец',
+                    desc: 'Зи́мний дворе́ц Петра́ I — личная резиденция императора Петра I, возведённая на набережной Невы у Зимней канавки, архитектурно-мемориальный памятник архитектуры начала XVIII века, частично сохранившийся и находящийся в здании Эрмитажного театра, включён в музейный комплекс Государственного Эрмитажа.',
+                    image: 'http://www.saint-petersburg.com/images/history/st-petersburg-in-the-era-of-peter-the-great/winter-palace-of-peter-the-great.jpg',
+                    url: 'https://ru.wikipedia.org/wiki/%D0%97%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86_%D0%9F%D0%B5%D1%82%D1%80%D0%B0_I',
+                    pos: {
+                        lat: 59.9403958,
+                        lng: 30.3137962
+                    }
+                }, {
+                    name: 'Летний сад',
+                    desc: 'Ле́тний сад — парковый ансамбль, памятник садово-паркового искусства первой трети XVIII века[1] в Центральном районе Санкт-Петербурга. Сад был заложен по повелению Петра I в 1704 году и первоначально был регулярным.',
+                    image: 'http://www.saint-petersburg.com/images/history/st-petersburg-in-the-era-of-peter-the-great/view-of-the-summer-garden-from-the-neva-river.jpg',
+                    url: 'https://ru.wikipedia.org/wiki/%D0%97%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86_%D0%9F%D0%B5%D1%82%D1%80%D0%B0_I',
+                    pos: {
+                        lat: 59.9449379,
+                        lng: 30.3354879
+                    }
+                }]
+            }, {
+                name: 'Санкт-Петербург в эпоху Екатерины I (1725-1727 гг.)',
                 buildings: [{
                     name: 'Кунстка́мера',
                     desc: 'Кунстка́мера — кабинет редкостей, в настоящее время — Музей антропологии и этнографии имени Петра Великого Российской академии наук (МАЭ РАН) — первый музей России, учреждённый императором Петром Первым и находящийся в Санкт-Петербурге.',
-                    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kunstkamera_SPB.jpg/300px-Kunstkamera_SPB.jpg',
+                    image: 'http://www.saint-petersburg.com/images/history/st-petersburg-in-the-era-of-catherine-i/the-kunstkammer-the-first-building-of-the-academy-of-sciences.jpg',
                     url: 'https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BD%D1%81%D1%82%D0%BA%D0%B0%D0%BC%D0%B5%D1%80%D0%B0',
                     pos: {
-                        lat: 59.941,
-                        lng: 30.304
+                        lat: 59.9414967,
+                        lng: 30.3045327
                     }
                 }, {
-                    name: 'Меншиковский дворец',
-                    desc: 'Меншиковский дворец — построенный для приближенного императора Петра Первого, первого губернатора Санкт-Петербурга Александра Даниловича Меншикова, дворец выполнен в стиле петровского барокко, первое каменное здание Санкт-Петербурга[3][4]. Авторы проекта — приглашённые зодчие Д. М. Фонтана и Г. И. Шедель[4].',
-                    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Menshikov_Palace_in_SPB.jpg/300px-Menshikov_Palace_in_SPB.jpg',
+                    name: 'Екатеринго́ф',
+                    desc: 'Екатеринго́ф (нем. Ekaterinhof, то есть «двор Екатерины») — исторический пейзажный парк на юго-западе Санкт-Петербурга, ведущий свою историю с петровского времени, когда в устье речки Екатерингофки был выстроен Подзорный дворец. В советское время переименован в парк имени 1-го Мая, затем в парк имени 30-летия ВЛКСМ.',
+                    image: 'http://www.saint-petersburg.com/images/history/st-petersburg-in-the-era-of-catherine-i/island-and-rotunda-in-catherinehof-park.jpg',
+                    url: 'https://ru.wikipedia.org/wiki/%D0%97%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86_%D0%9F%D0%B5%D1%82%D1%80%D0%B0_I',
+                    pos: {
+                        lat: 59.9019701,
+                        lng: 30.2600831
+                    }
+                }]
+            },  {
+                name: 'Санкт-Петербург в эпоху Петра II (1727-1730 гг.)',
+                buildings: [{
+                    name: 'Дворец Меньшикова',
+                    desc: 'Меншиковский дворец — построенный для приближенного императора Петра Первого, первого губернатора Санкт-Петербурга Александра Даниловича Меншикова, дворец выполнен в стиле петровского барокко, первое каменное здание Санкт-Петербурга.',
+                    image: 'http://s-pb.in/images/stories/museums/menshikov.jpg',
                     url: 'https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D1%88%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86_(%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3)',
                     pos: {
-                        lat: 59.939,
-                        lng: 30.295
+                        lat: 59.9395254,
+                        lng: 30.295545
                     }
                 }]
             }, {
@@ -60,8 +93,8 @@
                     image: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Spb_06-2012_Simeon_and_Anna_Church_02.jpg',
                     url: 'https://ru.wikipedia.org/wiki/Церковь_Симеона_и_Анны',
                     pos: {
-                        lat: 59.9386335,
-                        lng: 30.3445633
+                        lat: 59.938569,
+                        lng: 30.345781
                     }
                 }]
             }, {
@@ -217,6 +250,63 @@
                         lng: 30.3164953
                     }
                 }]
+            }, {
+                name: 'Санкт-Петербург в эпоху Николая I (1825-1855)',
+                buildings: [{
+                    name: 'Александровская коло́нна',
+                    desc: 'Алекса́ндровская коло́нна — памятник в стиле ампир, находящийся в центре Дворцовой площади Санкт-Петербурга. ',
+                    image: 'http://magic-ays.com/Buildings/AlexanderColumn.jpg',
+                    url: 'https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BB%D0%BE%D0%BD%D0%BD%D0%B0',
+                    pos: {
+                        lat: 59.9390682,
+                        lng: 30.3158059
+                    }
+                }, {
+                    name: 'Александровская коло́нна',
+                    desc: 'Зда́ние Гла́вного шта́ба — историческое здание, располагающееся на Дворцовой площади в Санкт-Петербурге',
+                    image: 'http://www.saint-petersburg.com/images/history/st-petersburg-in-the-era-of-nicholas-i/part-of-the-panorama-of-palace-square-general-staff-building.jpg',
+                    url: 'https://ru.wikipedia.org/wiki/%D0%97%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D1%88%D1%82%D0%B0%D0%B1%D0%B0_(%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3)',
+                    pos: {
+                        lat: 59.939034,
+                        lng: 30.318684
+                    }
+                }, {
+                    name: 'Дворцовая площадь',
+                    desc: 'Дворцо́вая пло́щадь — главная площадь Санкт-Петербурга, архитектурный ансамбль, возникший во второй половине XVIII — первой половине XIX века',
+                    image: 'http://www.saint-petersburg.com/images/history/st-petersburg-in-the-era-of-nicholas-i/part-of-the-panorama-of-palace-square-general-staff-building.jpg',
+                    url: 'https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C',
+                    pos: {
+                        lat: 59.938942,
+                        lng: 30.3149874
+                    }
+                }, {
+                    name: 'Здания Сената и Синода',
+                    desc: 'Зда́ния Сена́та и Сино́да — памятник архитектуры — здания в стиле позднего классицизма, расположенные на Сенатской площади в Санкт-Петербурге. Возведены в 1829–1834 годах. Соединены триумфальной аркой, перекинутой над Галерной улицей.',
+                    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Saint-P%C3%A9tersbourg_-_Senat.jpg/1920px-Saint-P%C3%A9tersbourg_-_Senat.jpg',
+                    url: 'https://ru.wikipedia.org/wiki/%D0%97%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F_%D0%A1%D0%B5%D0%BD%D0%B0%D1%82%D0%B0_%D0%B8_%D0%A1%D0%B8%D0%BD%D0%BE%D0%B4%D0%B0',
+                    pos: {
+                        lat: 59.9359348,
+                        lng: 30.300847
+                    }
+                }, {
+                    name: 'Александрийский театр',
+                    desc: 'Александри́нский театр — русский петербургский театр, один из старейших драматических театров России, сохранившихся до нашего времени.',
+                    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Alexandrinsky_Theatre.jpg/1920px-Alexandrinsky_Theatre.jpg',
+                    url: 'https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%B5%D0%B0%D1%82%D1%80',
+                    pos: {
+                        lat: 59.931785,
+                        lng: 30.336157
+                    }
+                }, {
+                    name: 'Росси́йская национа́льная библиоте́ка',
+                    desc: 'Росси́йская национа́льная библиоте́ка — одна из первых публичных библиотек в Восточной Европе, расположена в Санкт-Петербурге.',
+                    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B937.JPG/2560px-%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B937.JPG',
+                    url: 'https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0',
+                    pos: {
+                        lat: 59.9335441,
+                        lng: 30.3357343
+                    }
+                }]
             }];
 
             vm.selectAge = function (age) {
@@ -231,13 +321,16 @@
                 }), {
                     padding: L.point(10, 10)
                 });
+                if (age.buildings.length === 1) {
+                    map.setZoom(15);
+                }
                 lastLayer = L.featureGroup(age.buildings.map(function (building) {
 
                     var marker = L.marker([building.pos.lat, building.pos.lng]);
                     marker.bindTooltip(
                         "<p>" + "<img src=\"" + building.image + "\">" + building.desc + "</p>", {
-                        className: 'building-tooltip'
-                    });
+                            className: 'building-tooltip'
+                        });
                     marker.on('click', function () {
                         $window.open(building.url, '_blank');
                     });
