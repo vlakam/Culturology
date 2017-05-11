@@ -76,9 +76,6 @@
                     marker.on('click', function () {
                         $window.open(building.url, '_blank');
                     });
-                    marker.bindTooltip(building.name, {
-                        permanent: true
-                    });
 
                     return marker;
                 }));

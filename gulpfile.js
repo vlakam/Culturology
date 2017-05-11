@@ -1,17 +1,23 @@
 var gulp = require('gulp');
 var inject = require('gulp-inject');
 var sass = require('gulp-sass');
-var bowerFiles = require('main-bower-files');
+var bowerFiles = require('gulp-main-bower-files');
 var ngAnnotate = require('gulp-ng-annotate');
 var templateCache = require('gulp-angular-templatecache');
 
 gulp.task('index', function () {
-    var target = gulp.src('./app/index.html');
-    var sources = gulp.src(['./app/**/*.js', './app/**/*.css'], {read: false});
+    var target = gulp.src('./dist/index.html');
+    var sources = gulp.src(['./dist/libs/**/*.js'], {read: false});
 
-    return target.pipe(inject(sources, {relative: true}))
-        .pipe(inject(gulp.src(bowerFiles(), {read: false}), {name: 'bower', relative: true}))
+    return target.pipe(inject(sources, {name: 'bower', relative: true}))
+        .pipe(inject(gulp.src(['./dist/**/*.css'], {read: false}), {relative: true, name: 'styles'}))
         .pipe(gulp.dest('./dist'));
+});
+
+gulp.task('libs', function () {
+    return gulp.src('./bower.json')
+        .pipe(bowerFiles())
+        .pipe(gulp.dest('./dist/libs'));
 });
 
 gulp.task('scss', function () {
@@ -32,4 +38,4 @@ gulp.task('templates', function () {
         .pipe(gulp.dest('dist'));
 });
 
-gulp.task('default', ['templates', 'scss', 'annotate', 'index']);
+gulp.task('default', ['templates', 'libs', 'scss', 'annotate', 'index']);
