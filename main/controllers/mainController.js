@@ -371,16 +371,253 @@
         }]
       }, {
         name: 'Санкт-Петербург в эпоху Александра II (1855-1881 гг.)',
-        buildings: []
+        buildings: [{
+            name: 'Литейный мост',
+            desc: 'Координаты: 59°57′05″\xa0с.\xa0ш. 30°20′57″\xa0в.\xa0д.HGЯO',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Liteyny_Bridge_Panorama.jpg/310px-Liteyny_Bridge_Panorama.jpg',
+            url: 'https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%82%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BC%D0%BE%D1%81%D1%82',
+            pos: {
+              lat: 59.9515917,
+              lng: 30.3493611
+            }
+          },
+          {
+            name: 'Исаакиевский собор',
+            desc: 'Состояниеотпатрулирована',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Blue_star_unboxed.svg/13px-Blue_star_unboxed.svg.png',
+            url: 'https://ru.wikipedia.org/wiki/%D0%98%D1%81%D0%B0%D0%B0%D0%BA%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80',
+            pos: {
+              lat: 59.9342889,
+              lng: 30.30667
+            }
+          },
+          {
+            name: 'Мариинский театр',
+            desc: 'Ленинградский государственный академический театр оперы и балета им. С. М. Кирова',
+            image: 'https://upload.wikimedia.org/wikipedia/ru/d/d6/Mariinsky_Theatre_logo.png',
+            url: 'https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D0%B8%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%B5%D0%B0%D1%82%D1%80',
+            pos: {
+              lat: 59.925645,
+              lng: 30.295997
+            }
+          },
+          {
+            name: 'Большой Санкт-Петербургский государственный цирк',
+            desc: 'Большо́й Санкт-Петербу́ргский госуда́рственный цирк (также широко используется историческое название Цирк Чинизелли)\xa0— цирк города Санкт-Петербурга, первый каменный стационарный цирк России, один из старейших цирков России.',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Curcus_in_SPB.jpg/300px-Curcus_in_SPB.jpg',
+            url: 'https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%86%D0%B8%D1%80%D0%BA',
+            pos: {
+              lat: 59.938569,
+              lng: 30.34117
+            }
+          },
+          {
+            name: 'Дача Безбородко',
+            desc: 'Дача Безбородко (усадьба Кушелева-Безбородко, она же, Кушелева дача) — усадьба со знаменитой «львиной» оградой. Архитекторы Джакомо Кваренги, Н. А. Львов. Кто же автор львиной ограды — никто не знает.',
+            image: 'https://upload.wikimedia.org/wikipedia/ru/a/ad/Kushelevadacha.jpg',
+            url: 'https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%86%D0%B8%D1%80%D0%BA',
+            pos: {
+              lat: 59.9588996,
+              lng: 30.4002682
+            }
+          },
+          {
+            name: 'Дом учёных (Санкт-Петербург)',
+            desc: 'Дом учёных имени М. Горького РАН (Дворцовая набережная, 26)\xa0— старейший в бывшем СССР творческий клуб научной интеллигенции[1].',
+            image: 'https:/w/extensions/FlaggedRevs/frontend/modules/img/1.png',
+            url: 'https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC_%D1%83%D1%87%D1%91%D0%BD%D1%8B%D1%85_(%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3)',
+            pos: {
+              lat: 59.943404000028,
+              lng: 30.319668000028
+            }
+          }
+        ]
       }, {
         name: 'Санкт-Петербург в эпоху Александра III (1881-1894 гг.)',
-        buildings: []
+        buildings: [{
+            name: 'Спас на Крови',
+            desc: 'Собо́р Воскресе́ния Христо́ва на Крови́, или храм Спа́са на Крови́ в Санкт-Петербурге\xa0— православный мемориальный однопрестольный храм во имя Воскресения Христова; сооружён в память того, что на этом месте 1\xa0(13)\xa0марта\xa01881 года в результате покушения был смертельно ранен император Александр II (выражение на крови указывает на кровь царя). Храм был сооружён как памятник царю-мученику на средства, собранные по всей России[1].',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Auferstehungskirche_%28Sankt_Petersburg%29.JPG/267px-Auferstehungskirche_%28Sankt_Petersburg%29.JPG',
+            url: 'https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B0%D1%81_%D0%BD%D0%B0_%D0%9A%D1%80%D0%BE%D0%B2%D0%B8',
+            pos: {
+              lat: 59.9401611,
+              lng: 30.3285972
+            }
+          },
+          {
+            name: 'Санкт-Петербургская художественно-промышленная академия имени А. Л. Штиглица',
+            desc: 'Центральное училище технического рисования барона Штиглица, Ленинградское высшее художественно-промышленное училище им. В.И. Мухиной',
+            image: 'https:/w/extensions/FlaggedRevs/frontend/modules/img/1.png',
+            url: 'https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%B0%D1%8F_%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE-%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8_%D0%90._%D0%9B._%D0%A8%D1%82%D0%B8%D0%B3%D0%BB%D0%B8%D1%86%D0%B0',
+            pos: {
+              lat: 59.94361,
+              lng: 30.34083
+            }
+          },
+          {
+            name: 'Дворец великого князя Алексея Александровича',
+            desc: '\xa0памятник архитектуры',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Alexis_palace.jpeg/300px-Alexis_palace.jpeg',
+            url: 'https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%BE%D1%80%D0%B5%D1%86_%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BD%D1%8F%D0%B7%D1%8F_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D1%8F_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87%D0%B0',
+            pos: {
+              lat: 59.928055555584,
+              lng: 30.283416666695
+            }
+          },
+          {
+            name: 'Владимирский дворец',
+            desc: 'Владимирский дворец\xa0— резиденция великого князя Владимира Александровича, расположенная в Санкт-Петербурге (Дворцовая набережная, 26).',
+            image: 'https:/w/extensions/FlaggedRevs/frontend/modules/img/1.png',
+            url: 'https://ru.wikipedia.org/wiki/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86',
+            pos: {
+              lat: 59.943303060028,
+              lng: 30.319766110028
+            }
+          },
+          {
+            name: 'Кресты',
+            desc: 'Санкт-Петербург',
+            image: 'https:/w/extensions/FlaggedRevs/frontend/modules/img/1.png',
+            url: 'https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B5%D1%81%D1%82%D1%8B',
+            pos: {
+              lat: 59.95389,
+              lng: 30.36444
+            }
+          },
+          {
+            name: 'Дом Мурузи',
+            desc: 'Дом Мурузи\xa0— бывший доходный дом в Санкт-Петербурге, расположенный по адресу Литейный проспект, 24 (27\xa0— по улице Пестеля, 14\xa0— по улице Короленко).',
+            image: 'https:/w/extensions/FlaggedRevs/frontend/modules/img/1.png',
+            url: 'https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC_%D0%9C%D1%83%D1%80%D1%83%D0%B7%D0%B8',
+            pos: {
+              lat: 59.942500000028,
+              lng: 30.348888888917
+            }
+          },
+          {
+            name: 'Большая хоральная синагога (Санкт-Петербург)',
+            desc: '\xa0памятник архитектуры\xa0(федеральный)',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Grand_Choral_Synagogue_of_SPB.jpg/300px-Grand_Choral_Synagogue_of_SPB.jpg',
+            url: 'https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F_%D1%85%D0%BE%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D0%BD%D0%B0%D0%B3%D0%BE%D0%B3%D0%B0_(%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3)',
+            pos: {
+              lat: 59.924713,
+              lng: 30.2895573
+            }
+          },
+          {
+            name: 'Певческая капелла',
+            desc: '\xa0памятник архитектуры\xa0(федеральный)',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/8/82/%D0%9E%D0%B1%D1%89%D0%B8%D0%B9_%D0%B2%D0%B8%D0%B4_%D0%9F%D0%B5%D0%B2%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9_%D0%9A%D0%B0%D0%BF%D0%B5%D0%BB%D0%BB%D1%8B_%D1%81%D0%BE_%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D1%8B_%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D1%88%D1%82%D0%B0%D0%B1%D0%B0.JPG',
+            url: 'https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%B0%D0%BF%D0%B5%D0%BB%D0%BB%D0%B0_%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D0%B0',
+            pos: {
+              lat: 59.939931,
+              lng: 30.3188723
+            }
+          }
+        ]
       }, {
         name: 'Санкт-Петербург в эпоху Николая II (1894-1917 гг.)',
-        buildings: []
-      }, {
-        name: 'Санкт-Петербург в эпоху революции??? (1918-1924 гг.)',
-        buildings: []
+        buildings: [{
+            name: 'Троицкий мост (Санкт-Петербург)',
+            desc: 'Координаты: 59°56′55″\xa0с.\xa0ш. 30°19′38″\xa0в.\xa0д.HGЯO',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Trinity_Bridge_in_Saint_Petersburg.jpg/285px-Trinity_Bridge_in_Saint_Petersburg.jpg',
+            url: 'https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_(%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3)',
+            pos: {
+              lat: 59.9487528,
+              lng: 30.3274056
+            }
+          },
+          {
+            name: 'Великокняжеская усыпальница',
+            desc: 'Великокняжеская усыпальница\xa0— усыпальница некоронованных членов российского императорского дома, расположена в Санкт-Петербурге в Петропавловской крепости рядом с православным Петропавловским собором. Традиционное название «Великокняжеская усыпальница» не совсем точно: помимо особ, имевших титул великих князей и княгинь, усыпальница была предназначена также для князей императорской крови и членов породнившейся с Романовыми семьи Богарне, имевших титул герцогов Лейхтенбергских и светлейших князей Романовских.',
+            image: 'https:/w/extensions/FlaggedRevs/frontend/modules/img/1.png',
+            url: 'https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%BA%D0%BD%D1%8F%D0%B6%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%83%D1%81%D1%8B%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%B0',
+            pos: {
+              lat: 59.9506417,
+              lng: 30.3173278
+            }
+          },
+          {
+            name: 'Финляндский железнодорожный мост',
+            desc: 'Координаты: 59°54′55″\xa0с.\xa0ш. 30°24′34″\xa0в.\xa0д.HGЯO',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/IvanSmelov-FINLYANDSKY.jpg/300px-IvanSmelov-FINLYANDSKY.jpg',
+            url: 'https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D1%8B%D0%B9_%D0%BC%D0%BE%D1%81%D1%82',
+            pos: {
+              lat: 59.9154944,
+              lng: 30.4094556
+            }
+          },
+          {
+            name: 'Дом компании «Зингер»',
+            desc: 'Дом компа́нии «Зи́нгер» (известный также как «Дом кни́ги»)\xa0— здание в Санкт-Петербурге, расположенное по адресу Невский проспект, дом 28, памятник архитектуры федерального значения, находится в государственной собственности.',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Singer_House_SPB_01.jpg/270px-Singer_House_SPB_01.jpg',
+            url: 'https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC_%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8_%C2%AB%D0%97%D0%B8%D0%BD%D0%B3%D0%B5%D1%80%C2%BB',
+            pos: {
+              lat: 59.935667,
+              lng: 30.325917
+            }
+          },
+          {
+            name: 'Дом торгового товарищества «Братья Елисеевы»',
+            desc: 'Дом торгового товарищества «Братья Елисеевы» (Елисеевский магазин)\xa0— здание на углу Невского проспекта (дом 56) и Малой Садовой улицы (дом 8) в Санкт-Петербурге, памятник архитектуры раннего модерна.',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Eliseevs%27_House_SPB_01.jpg/267px-Eliseevs%27_House_SPB_01.jpg',
+            url: 'https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC_%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0_%C2%AB%D0%91%D1%80%D0%B0%D1%82%D1%8C%D1%8F_%D0%95%D0%BB%D0%B8%D1%81%D0%B5%D0%B5%D0%B2%D1%8B%C2%BB',
+            pos: {
+              lat: 59.9342,
+              lng: 30.3377
+            }
+          },
+          {
+            name: 'Wawelberg Bank building',
+            desc: 'The Wawelberg Bank Building in St. Petersburg, Russia was built by the Wawelbergs - a prominent Polish banking family active in the Russian Empire. Although this building bears initials HW (Hipolit Wawelberg), it was commissioned by his son, Michael Wawelberg. It is located at 7/9 Nevsky Prospekt and is an important Nevsky Prospekt landmark. Architect Marian Peretiatkovich, also Peretyatkovich, Peretiatkowicz; Style: Historicism, Neo-Renaissance with elements of Art Nouveau',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/7-9_Nevsky_07_HW2.jpg/220px-7-9_Nevsky_07_HW2.jpg',
+            url: 'https://en.wikipedia.org/wiki/Wawelberg_Bank_building',
+            pos: {
+              lat: 59.9365765,
+              lng: 30.3120039
+            }
+          },
+          {
+            name: 'Санкт-Петербургская соборная мечеть',
+            desc: '\xa0памятник архитектуры\xa0(региональный)',
+            image: 'https:/w/extensions/FlaggedRevs/frontend/modules/img/1.png',
+            url: 'https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%BE%D0%B1%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%8C',
+            pos: {
+              lat: 59.955167,
+              lng: 30.323889
+            }
+          },
+          {
+            name: 'Буддийский храм в Санкт-Петербурге',
+            desc: 'Будди́йский храм в Санкт-Петербу́рге (официально: Санкт-Петербу́ргский будди́йский храм «Даца́н Гунзэчойнэ́й» (тиб. ཀུན་བརྩེ་ཆོས་གནས་གྲྭ་ཚང),\xa0в переводе с тибетского Гунзэчойнэй — источник святого учения Всесострадающего [Владыки-отшельника]) — до недавнего времени[1] самый северный в мире буддийский храм. Относится к Буддийской традиционной сангхе России, школа гелугпа.',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Datsan_Gunzechoinei_Face.jpg/300px-Datsan_Gunzechoinei_Face.jpg',
+            url: 'https://ru.wikipedia.org/wiki/%D0%91%D1%83%D0%B4%D0%B4%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%85%D1%80%D0%B0%D0%BC_%D0%B2_%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D0%B5',
+            pos: {
+              lat: 59.98361,
+              lng: 30.25583
+            }
+          },
+          {
+            name: 'Дворец Николая Николаевича Младшего',
+            desc: 'Дворец Николая Николаевича Младшего. Последниц дворец в истории России',
+            image: 'https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:%D0%94%D0%B2%D0%BE%D1%80%D0%B5%D1%86_%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BD%D1%8F%D0%B7%D1%8F_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%8F_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87%D0%B0-%D0%BC%D0%BB%D0%B0%D0%B4%D1%88%D0%B5%D0%B3%D0%BE.JPG',
+            url: 'https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87_%D0%9C%D0%BB%D0%B0%D0%B4%D1%88%D0%B8%D0%B9',
+            pos: {
+              lat: 59.98361,
+              lng: 30.25583
+            }
+          }
+          {
+            name: 'Residential Building of the First Russian Insurance Company',
+            desc: 'The house was built at the height of the Russian Neoclassical Revival; the facades were lined with expensive soapstone from Sweden and decorated with monumental columns and sculptures.',
+            image: 'http://www.saint-petersburg.com/images/apartment-buildings/residential-building-of-the-first-russian-insurance-company/facade-of-the-apartment-building-of-the-first-russian-insurance-society-facing-kamennoostrovskiy-prospekt.jpg',
+            url: 'http://www.saint-petersburg.com/apartment-buildings/residential-building-of-the-first-russian-insurance-company/',
+            pos: {
+              lat: 59.962307,
+              lng: 30.313799
+            }
+          }
+        ]
       }, {
         name: 'Санкт-Петербург в эпоху Сталина (1924-1941 гг.)',
         buildings: []
