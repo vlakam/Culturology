@@ -619,20 +619,17 @@
           }
         ]
       }, {
-        name: 'Санкт-Петербург в эпоху Сталина (1924-1941 гг.)',
-        buildings: []
-      }, {
-        name: 'Санкт-Петербург в эпоху Сталина 2 (1945-1953 гг.)',
-        buildings: []
-      }, {
-        name: 'Санкт-Петербург в эпоху Хрущева (1725-1727 гг.)',
-        buildings: []
-      }, {
-        name: 'Санкт-Петербург в эпоху Брежнева (1725-1727 гг.)',
-        buildings: []
-      }, {
-        name: 'Санкт-Петербург в эпоху Горбачева (1725-1727 гг.)',
-        buildings: []
+        name: 'Санкт-Петербург в эпоху СССР',
+        buildings: [{
+          name: 'Дом политкаторжан',
+          desc: 'Дом политкаторжа́н\xa0 — жилой дом эпохи конструктивизма на углу Троицкой площади и Петровской набережной в Санкт-Петербурге.',
+          image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Political_Convicts_House.jpg/267px-Political_Convicts_House.jpg',
+          url: 'https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC_%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%BA%D0%B0%D1%82%D0%BE%D1%80%D0%B6%D0%B0%D0%BD',
+          pos: {
+            lat: 59.952819,
+            lng: 30.32793
+          }
+        }]
       }];
 
       vm.selectAge = function(age) {
