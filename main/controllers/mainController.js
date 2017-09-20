@@ -606,7 +606,7 @@
               lat: 59.98361,
               lng: 30.25583
             }
-          }
+          },
           {
             name: 'Residential Building of the First Russian Insurance Company',
             desc: 'The house was built at the height of the Russian Neoclassical Revival; the facades were lined with expensive soapstone from Sweden and decorated with monumental columns and sculptures.',
