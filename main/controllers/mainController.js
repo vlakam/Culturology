@@ -510,7 +510,7 @@
         name: 'Санкт-Петербург в эпоху Николая II (1894-1917 гг.)',
         buildings: [{
             name: 'Троицкий мост (Санкт-Петербург)',
-            desc: 'Координаты: 59°56′55″\xa0с.\xa0ш. 30°19′38″\xa0в.\xa0д.HGЯO',
+            desc: 'Тро́ицкий мост (с 1918 по 1934 г. — мост Равенства, с 1934 по 1991 г. — Кировский мост) — разводной мост через Неву в Санкт-Петербурге. Соединяет между собой Петроградский и 1-й Адмиралтейский острова. Третий постоянный мост через Неву.',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Trinity_Bridge_in_Saint_Petersburg.jpg/285px-Trinity_Bridge_in_Saint_Petersburg.jpg',
             url: 'https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_(%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3)',
             pos: {
@@ -520,8 +520,8 @@
           },
           {
             name: 'Великокняжеская усыпальница',
-            desc: 'Великокняжеская усыпальница\xa0— усыпальница некоронованных членов российского императорского дома, расположена в Санкт-Петербурге в Петропавловской крепости рядом с православным Петропавловским собором. Традиционное название «Великокняжеская усыпальница» не совсем точно: помимо особ, имевших титул великих князей и княгинь, усыпальница была предназначена также для князей императорской крови и членов породнившейся с Романовыми семьи Богарне, имевших титул герцогов Лейхтенбергских и светлейших князей Романовских.',
-            image: 'https:/w/extensions/FlaggedRevs/frontend/modules/img/1.png',
+            desc: 'Великокняжеская усыпальница — усыпальница некоронованных членов российского императорского дома, расположена в Санкт-Петербурге в Петропавловской крепости рядом с православным Петропавловским собором. Традиционное название «Великокняжеская усыпальница» не совсем точно: помимо особ, имевших титул великих князей и княгинь, усыпальница была предназначена также для князей императорской крови и членов породнившейся с Романовыми семьи Богарне, имевших титул герцогов Лейхтенбергских и светлейших князей Романовских.',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Grand_duces_mausoleum.jpg/800px-Grand_duces_mausoleum.jpg',
             url: 'https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%BA%D0%BD%D1%8F%D0%B6%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%83%D1%81%D1%8B%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%B0',
             pos: {
               lat: 59.9506417,
@@ -530,7 +530,7 @@
           },
           {
             name: 'Финляндский железнодорожный мост',
-            desc: 'Координаты: 59°54′55″\xa0с.\xa0ш. 30°24′34″\xa0в.\xa0д.HGЯO',
+            desc: 'Разводной мост через Неву на Финляндской соединительной железнодорожной ветке. Фактически это два почти вплотную примыкающих друг к другу моста, имеющих общее название',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/IvanSmelov-FINLYANDSKY.jpg/300px-IvanSmelov-FINLYANDSKY.jpg',
             url: 'https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D1%8B%D0%B9_%D0%BC%D0%BE%D1%81%D1%82',
             pos: {
@@ -540,7 +540,7 @@
           },
           {
             name: 'Дом компании «Зингер»',
-            desc: 'Дом компа́нии «Зи́нгер» (известный также как «Дом кни́ги»)\xa0— здание в Санкт-Петербурге, расположенное по адресу Невский проспект, дом 28, памятник архитектуры федерального значения, находится в государственной собственности.',
+            desc: 'Дом компа́нии «Зи́нгер» (известный также как «Дом кни́ги») — здание в Санкт-Петербурге, расположенное по адресу Невский проспект, дом 28, памятник архитектуры федерального значения, находится в государственной собственности.',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Singer_House_SPB_01.jpg/270px-Singer_House_SPB_01.jpg',
             url: 'https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC_%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8_%C2%AB%D0%97%D0%B8%D0%BD%D0%B3%D0%B5%D1%80%C2%BB',
             pos: {
@@ -550,7 +550,7 @@
           },
           {
             name: 'Дом торгового товарищества «Братья Елисеевы»',
-            desc: 'Дом торгового товарищества «Братья Елисеевы» (Елисеевский магазин)\xa0— здание на углу Невского проспекта (дом 56) и Малой Садовой улицы (дом 8) в Санкт-Петербурге, памятник архитектуры раннего модерна.',
+            desc: 'Дом торгового товарищества «Братья Елисеевы» (Елисеевский магазин) — здание на углу Невского проспекта (дом 56) и Малой Садовой улицы (дом 8) в Санкт-Петербурге, памятник архитектуры раннего модерна.',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Eliseevs%27_House_SPB_01.jpg/267px-Eliseevs%27_House_SPB_01.jpg',
             url: 'https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC_%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0_%C2%AB%D0%91%D1%80%D0%B0%D1%82%D1%8C%D1%8F_%D0%95%D0%BB%D0%B8%D1%81%D0%B5%D0%B5%D0%B2%D1%8B%C2%BB',
             pos: {
@@ -559,10 +559,10 @@
             }
           },
           {
-            name: 'Wawelberg Bank building',
-            desc: 'The Wawelberg Bank Building in St. Petersburg, Russia was built by the Wawelbergs - a prominent Polish banking family active in the Russian Empire. Although this building bears initials HW (Hipolit Wawelberg), it was commissioned by his son, Michael Wawelberg. It is located at 7/9 Nevsky Prospekt and is an important Nevsky Prospekt landmark. Architect Marian Peretiatkovich, also Peretyatkovich, Peretiatkowicz; Style: Historicism, Neo-Renaissance with elements of Art Nouveau',
+            name: 'Доходный дом Вавельберга',
+            desc: 'Величественный гранитный дом в стиле неоренессанс, где размещался банк одного из самых богатых людей Петербурга, который, как гласит история, больше любил «тянуть к себе», чем «толкать от себя».',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/7-9_Nevsky_07_HW2.jpg/220px-7-9_Nevsky_07_HW2.jpg',
-            url: 'https://en.wikipedia.org/wiki/Wawelberg_Bank_building',
+            url: 'http://petersburglike.ru/2015-06-05/doxodnyj-dom-vavelberga/',
             pos: {
               lat: 59.9365765,
               lng: 30.3120039
@@ -570,8 +570,8 @@
           },
           {
             name: 'Санкт-Петербургская соборная мечеть',
-            desc: '\xa0памятник архитектуры\xa0(региональный)',
-            image: 'https:/w/extensions/FlaggedRevs/frontend/modules/img/1.png',
+            desc: 'Соборная мечеть Санкт-Петербурга — памятник архитектуры, стиль северный модерн, главная мечеть Российской империи, крупнейшая мечеть в европейской части Российской империи.',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Mosque_SPB.jpg/800px-Mosque_SPB.jpg',
             url: 'https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%BE%D0%B1%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%8C',
             pos: {
               lat: 59.955167,
@@ -613,7 +613,7 @@
         name: 'Санкт-Петербург в эпоху СССР',
         buildings: [{
           name: 'Дом политкаторжан',
-          desc: 'Дом политкаторжа́н\xa0 — жилой дом эпохи конструктивизма на углу Троицкой площади и Петровской набережной в Санкт-Петербурге.',
+          desc: 'Дом политкаторжа́н — жилой дом эпохи конструктивизма на углу Троицкой площади и Петровской набережной в Санкт-Петербурге.',
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Political_Convicts_House.jpg/267px-Political_Convicts_House.jpg',
           url: 'https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC_%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%BA%D0%B0%D1%82%D0%BE%D1%80%D0%B6%D0%B0%D0%BD',
           pos: {
