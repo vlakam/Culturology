@@ -589,10 +589,10 @@
             }
           },
           {
-            name: 'Residential Building of the First Russian Insurance Company',
-            desc: 'The house was built at the height of the Russian Neoclassical Revival; the facades were lined with expensive soapstone from Sweden and decorated with monumental columns and sculptures.',
+            name: 'Жилой дом Первого Российского страхового общества',
+            desc: 'Жилой дом Первого Российского страхового общества. Постройке дома предшествовал конкурс, в котором победил проект арх. Н. В. Васильева и А. И. Дмитриева. Но этот проект по неизвестной причине не был осуществлен. Аналогичную по плану постройку осуществили архитекторы Л. Н., А. Н. и Ю. Ю. Бенуа (при участии А. И. Гунста). В разработке планировочного решения этого дома принимал участие А. И. Бубырь. Их проект отличается решением фасадов в регулярном классическом стиле.',
             image: 'http://www.saint-petersburg.com/images/apartment-buildings/residential-building-of-the-first-russian-insurance-company/facade-of-the-apartment-building-of-the-first-russian-insurance-society-facing-kamennoostrovskiy-prospekt.jpg',
-            url: 'http://www.saint-petersburg.com/apartment-buildings/residential-building-of-the-first-russian-insurance-company/',
+            url: 'http://www.citywalls.ru/house559.html',
             pos: {
               lat: 59.962307,
               lng: 30.313799
